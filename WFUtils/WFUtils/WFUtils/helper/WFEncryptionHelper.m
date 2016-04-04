@@ -115,15 +115,8 @@
     NSData *data = [self DES_DecryptDataWithData:dataSource andKey:[self MD5_Encrypt:key]];
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
-/******************************************************************************
- 函数名称 : + (NSData *)DESEncrypt:(NSData *)data WithKey:(NSString *)key
- 函数描述 : 文本数据进行DES加密
- 输入参数 : (NSData *)data
- (NSString *)key
- 输出参数 : N/A
- 返回参数 : (NSData *)
- 备注信息 : 此函数不可用于过长文本
- ******************************************************************************/
+
+
 + (NSData *)DES_EncryptDataWithData:(NSData *)data andKey:(NSString *)key
 {
     
@@ -153,15 +146,6 @@
     return nil;
 }
 
-/******************************************************************************
- 函数名称 : + (NSData *)DESEncrypt:(NSData *)data WithKey:(NSString *)key
- 函数描述 : 文本数据进行DES解密
- 输入参数 : (NSData *)data
- (NSString *)key
- 输出参数 : N/A
- 返回参数 : (NSData *)
- 备注信息 : 此函数不可用于过长文本
- ******************************************************************************/
 + (NSData *)DES_DecryptDataWithData:(NSData *)data andKey:(NSString *)key
 {
     char keyPtr[kCCKeySizeAES256+1];
