@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+
+
 @interface UIViewController (WFExtension)
 
 @end
@@ -18,6 +20,6 @@
 @end
 
 // 键盘拓展
-@interface UIViewController (WFExtensionKeyboards)
+@interface UIViewController (WFExtensionKeyboard)
 
 @end

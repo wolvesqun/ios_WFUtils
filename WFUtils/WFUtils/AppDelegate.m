@@ -20,8 +20,8 @@
     // Override point for customization after application launch.
     
 //    NSString *key = [WFEncryptionHelper md5:@"1"];
-    NSData *encodeValue = [WFEncryptionHelper AES256Encrypt:@"345" andKey:@"key"];
-    NSString *value = [WFEncryptionHelper AES256Decrypt:encodeValue andKey:@"key"];
+//    NSData *encodeValue = [WFEncryptionHelper AES256Encrypt:@"345" andKey:@"key"];
+//    NSString *value = [WFEncryptionHelper AES256Decrypt:encodeValue andKey:@"key"];
     return YES;
 }
 

@@ -17,6 +17,8 @@
 		BC9D77681CB25E5D00E83DA0 /* NSData+WFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77671CB25E5D00E83DA0 /* NSData+WFExtension.m */; settings = {ASSET_TAGS = (); }; };
 		BC9D776E1CB2605800E83DA0 /* WFEncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D776D1CB2605800E83DA0 /* WFEncryptionHelper.m */; settings = {ASSET_TAGS = (); }; };
 		BC9D77711CB267C100E83DA0 /* WFConfigHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77701CB267C100E83DA0 /* WFConfigHelper.m */; settings = {ASSET_TAGS = (); }; };
+		BC9D77741CB26AE700E83DA0 /* UINavigationController+WFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77731CB26AE700E83DA0 /* UINavigationController+WFExtension.m */; settings = {ASSET_TAGS = (); }; };
+		BC9D77771CB26F1500E83DA0 /* UIView+WFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77761CB26F1500E83DA0 /* UIView+WFExtension.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		BC9D776D1CB2605800E83DA0 /* WFEncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFEncryptionHelper.m; sourceTree = "<group>"; };
 		BC9D776F1CB267C100E83DA0 /* WFConfigHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFConfigHelper.h; sourceTree = "<group>"; };
 		BC9D77701CB267C100E83DA0 /* WFConfigHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFConfigHelper.m; sourceTree = "<group>"; };
+		BC9D77721CB26AE700E83DA0 /* UINavigationController+WFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+WFExtension.h"; sourceTree = "<group>"; };
+		BC9D77731CB26AE700E83DA0 /* UINavigationController+WFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+WFExtension.m"; sourceTree = "<group>"; };
+		BC9D77751CB26F1500E83DA0 /* UIView+WFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+WFExtension.h"; sourceTree = "<group>"; };
+		BC9D77761CB26F1500E83DA0 /* UIView+WFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+WFExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +113,12 @@
 			children = (
 				BC9D77631CB25D9600E83DA0 /* UIViewController+WFExtension.h */,
 				BC9D77641CB25D9600E83DA0 /* UIViewController+WFExtension.m */,
+				BC9D77721CB26AE700E83DA0 /* UINavigationController+WFExtension.h */,
+				BC9D77731CB26AE700E83DA0 /* UINavigationController+WFExtension.m */,
 				BC9D77661CB25E5D00E83DA0 /* NSData+WFExtension.h */,
 				BC9D77671CB25E5D00E83DA0 /* NSData+WFExtension.m */,
+				BC9D77751CB26F1500E83DA0 /* UIView+WFExtension.h */,
+				BC9D77761CB26F1500E83DA0 /* UIView+WFExtension.m */,
 			);
 			path = category;
 			sourceTree = "<group>";
@@ -202,11 +212,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC9D776E1CB2605800E83DA0 /* WFEncryptionHelper.m in Sources */,
+				BC9D77771CB26F1500E83DA0 /* UIView+WFExtension.m in Sources */,
 				BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */,
 				BC9D77681CB25E5D00E83DA0 /* NSData+WFExtension.m in Sources */,
 				BC9D77471CB25C9500E83DA0 /* AppDelegate.m in Sources */,
 				BC9D77441CB25C9500E83DA0 /* main.m in Sources */,
 				BC9D77651CB25D9600E83DA0 /* UIViewController+WFExtension.m in Sources */,
+				BC9D77741CB26AE700E83DA0 /* UINavigationController+WFExtension.m in Sources */,
 				BC9D77711CB267C100E83DA0 /* WFConfigHelper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
