@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC6BC2F71CB3C0CB00854108 /* WFDateHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC2F61CB3C0CB00854108 /* WFDateHelper.m */; settings = {ASSET_TAGS = (); }; };
 		BC9D77441CB25C9500E83DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77431CB25C9500E83DA0 /* main.m */; };
 		BC9D77471CB25C9500E83DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77461CB25C9500E83DA0 /* AppDelegate.m */; };
 		BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77491CB25C9500E83DA0 /* ViewController.m */; };
@@ -21,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC6BC2F51CB3C0CB00854108 /* WFDateHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFDateHelper.h; sourceTree = "<group>"; };
+		BC6BC2F61CB3C0CB00854108 /* WFDateHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFDateHelper.m; sourceTree = "<group>"; };
 		BC9D773F1CB25C9500E83DA0 /* WFUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D77431CB25C9500E83DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC9D77451CB25C9500E83DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -125,6 +128,8 @@
 				BC9D776D1CB2605800E83DA0 /* WFEncryptionHelper.m */,
 				BC9D776F1CB267C100E83DA0 /* WFConfigHelper.h */,
 				BC9D77701CB267C100E83DA0 /* WFConfigHelper.m */,
+				BC6BC2F51CB3C0CB00854108 /* WFDateHelper.h */,
+				BC6BC2F61CB3C0CB00854108 /* WFDateHelper.m */,
 			);
 			path = helper;
 			sourceTree = "<group>";
@@ -206,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC6BC2F71CB3C0CB00854108 /* WFDateHelper.m in Sources */,
 				BC9D776E1CB2605800E83DA0 /* WFEncryptionHelper.m in Sources */,
 				BC9D77771CB26F1500E83DA0 /* UIView+WFExtension.m in Sources */,
 				BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */,
