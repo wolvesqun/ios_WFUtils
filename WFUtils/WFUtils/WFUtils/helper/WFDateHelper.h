@@ -25,7 +25,7 @@
                         andFormat:(NSString *)format;
 
 /**
- *  字符串 -》时间
+ *  字符串 -》时间 (注意如果时间少了时分秒，那么转换的时间就会少一天)
  *
  *  @param srcDate 如果为空则返回 nil
  *  @param format  默认为 yyyy-MM-dd

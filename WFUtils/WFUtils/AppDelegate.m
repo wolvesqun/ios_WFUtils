@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "WFEncryptionHelper.h"
+#import "WFDateHelper.h"
 
 @interface AppDelegate ()
 
@@ -22,7 +23,20 @@
 //    NSString *key = [WFEncryptionHelper md5:@"1"];
 //    NSData *encodeValue = [WFEncryptionHelper AES256Encrypt:@"345" andKey:@"key"];
 //    NSString *value = [WFEncryptionHelper AES256Decrypt:encodeValue andKey:@"key"];
+    
+    [self testDate];
     return YES;
+}
+
+- (void)testDate
+{
+    NSDate *nowDate = [NSDate date];
+    NSString *nowDateStr = [WFDateHelper convertDateToString:nowDate andFormat:@"yyyy-MM-dd"];
+    NSLog(@"=====> %@", nowDateStr);
+    
+    
+    
+    NSLog(@"*****>  %@", [WFDateHelper convertStringToDate:@"2015-03-01 12:12:12" andFormat:@"yyyy-MM-dd HH:mm:ss"]);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
