@@ -19,12 +19,12 @@
 
 #pragma mark - AES(非对称加密)
 // - 采用AES加密|解密字符串, key内部md5加密过
-+ (NSData*)AES256_EncryptStringWithString:(NSString*)strSource andKey:(NSString*)key;
-+ (NSString*)AES256_DecryptStringWithData:(NSData*)dataSource andKey:(NSString*)key;
++ (NSData *)AES256_EncryptStringWithString:(NSString*)strSource andKey:(NSString*)key;
++ (NSString *)AES256_DecryptStringWithData:(NSData*)dataSource andKey:(NSString*)key;
 
 // - 采用AES加密|解密字符串，key内部未加密过
-+ (NSData*)AES256_EncryptDataWithData:(NSData *)data andKey:(NSString*)key;
-+ (NSData*)AES256_DecryptDataWithData:(NSData *)data andKey:(NSString*)key;
++ (NSData *)AES256_EncryptDataWithData:(NSData *)data andKey:(NSString*)key;
++ (NSData *)AES256_DecryptDataWithData:(NSData *)data andKey:(NSString*)key;
 
 
 #pragma mark - DES(对称加密)

@@ -62,27 +62,23 @@
 // - set 方法
 + (void)setBoolWithKey:(NSString *)key andValue:(BOOL)value{
     NSNumber *objValue = [NSNumber numberWithBool:value];
-    [[NSUserDefaults standardUserDefaults] setObject:objValue forKey:key];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     [WFUserDefault setObject:objValue forKey:key];
+    [WFUserDefault synchronize];
     
 }
 + (void)setStringWithKey:(NSString *)key andValue:(NSString *)value{
-    [[NSUserDefaults standardUserDefaults] setObject:value forKey:key];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     [WFUserDefault setObject:value forKey:key];
+    [WFUserDefault synchronize];
 }
 + (void)setIntegerWithKey:(NSString *)key andValue:(NSInteger)value{
     NSNumber *objValue = [NSNumber numberWithInteger:value];
-    [[NSUserDefaults standardUserDefaults] setObject:objValue forKey:key];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     [WFUserDefault setObject:objValue forKey:key];
+    [WFUserDefault synchronize];
 }
 + (void)setFloatWithKey:(NSString *)key andValue:(float)value{
     NSNumber *objValue = [NSNumber numberWithFloat:value];
-    [[NSUserDefaults standardUserDefaults] setObject:objValue forKey:key];
-    [[NSUserDefaults standardUserDefaults] synchronize];
     [WFUserDefault setObject:objValue forKey:key];
+    [WFUserDefault synchronize];
 }
 
 @end

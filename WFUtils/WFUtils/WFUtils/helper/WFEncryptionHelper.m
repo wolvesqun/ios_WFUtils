@@ -26,19 +26,19 @@
 }
 
 #pragma mark - AES
-+ (NSData*)AES256_EncryptStringWithString:(NSString*)strSource andKey:(NSString*)key {
++ (NSData *)AES256_EncryptStringWithString:(NSString*)strSource andKey:(NSString*)key {
     NSData *dataSource = [strSource dataUsingEncoding:NSUTF8StringEncoding];
     return [self AES256_EncryptDataWithData:dataSource andKey:[WFEncryptionHelper MD5_Encrypt:key]];
 }
 
-+ (NSString*)AES256_DecryptStringWithData:(NSData*)dataSource andKey:(NSString*)key {
++ (NSString *)AES256_DecryptStringWithData:(NSData*)dataSource andKey:(NSString*)key {
     NSData *decryptData = [self AES256_DecryptDataWithData:dataSource
                                                     andKey:[WFEncryptionHelper MD5_Encrypt:key]];
     return [[NSString alloc] initWithData:decryptData encoding:NSUTF8StringEncoding];
 }
 
 // -
-+ (NSData*)AES256_EncryptDataWithData:(NSData *)data andKey:(NSString*)key {
++ (NSData *)AES256_EncryptDataWithData:(NSData *)data andKey:(NSString*)key {
     
     char keyPtr[kCCKeySizeAES256 + 1]; // room for terminator (unused)
     bzero(keyPtr, sizeof(keyPtr)); // fill with zeroes (for padding)
@@ -67,7 +67,7 @@
 }
 
 // -
-+ (NSData*)AES256_DecryptDataWithData:(NSData *)data andKey:(NSString*)key {
++ (NSData *)AES256_DecryptDataWithData:(NSData *)data andKey:(NSString*)key {
     
     char keyPtr[kCCKeySizeAES256 + 1]; // room for terminator (unused)
     bzero(keyPtr, sizeof(keyPtr)); // fill with zeroes (for padding)
