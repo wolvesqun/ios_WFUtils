@@ -10,6 +10,20 @@
 
 @implementation UINavigationController (WFExtension)
 
+- (void)popToViewControllerWithClass:(Class)clazz animated:(BOOL)animated
+{
+    NSArray *items = self.viewControllers;
+    for (UIViewController *vc in items) {
+        if([vc isKindOfClass:clazz])
+        {
+            dispatch_async(dispatch_get_main_queue(), ^{
+               [self.navigationController popToViewController:vc animated:animated];
+            });
+            break;
+        }
+    }
+}
+
 - (BOOL)navigationBar:(UINavigationBar *)navigationBar shouldPopItem:(UINavigationItem*)item {
     
     if([self.viewControllers count] < [navigationBar.items count]) {

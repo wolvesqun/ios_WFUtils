@@ -17,4 +17,7 @@
 
 @interface UINavigationController (WFExtension)
 
+// - 
+- (void)popToViewControllerWithClass:(Class)clazz animated:(BOOL)animated;
+
 @end

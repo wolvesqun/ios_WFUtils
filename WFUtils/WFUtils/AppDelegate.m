@@ -9,8 +9,11 @@
 #import "AppDelegate.h"
 #import "WFEncryptionHelper.h"
 #import "WFDateHelper.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
+
+
 
 @end
 
@@ -24,7 +27,13 @@
 //    NSData *encodeValue = [WFEncryptionHelper AES256Encrypt:@"345" andKey:@"key"];
 //    NSString *value = [WFEncryptionHelper AES256Decrypt:encodeValue andKey:@"key"];
     
-    [self testDate];
+//    [self testDate];
+    
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = nav;
+    
+    
     return YES;
 }
 
