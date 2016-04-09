@@ -104,6 +104,14 @@
 		BC6BC48B1CB8E69900854108 /* WFPlayerMusicToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC48A1CB8E69900854108 /* WFPlayerMusicToolbar.m */; settings = {ASSET_TAGS = (); }; };
 		BC6BC48E1CB8E6F400854108 /* WFBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC48D1CB8E6F400854108 /* WFBaseView.m */; settings = {ASSET_TAGS = (); }; };
 		BC6BC4911CB9083600854108 /* WFMusicPlayProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4901CB9083600854108 /* WFMusicPlayProgressView.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4941CB9334900854108 /* WFRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4931CB9334900854108 /* WFRecordViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4A41CB945A000854108 /* AudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4971CB945A000854108 /* AudioPlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BC6BC4A51CB945A000854108 /* AutoRecoveringHttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4991CB945A000854108 /* AutoRecoveringHttpDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4A61CB945A000854108 /* CoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC49B1CB945A000854108 /* CoreFoundationDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4A71CB945A000854108 /* DataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC49D1CB945A000854108 /* DataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4A81CB945A000854108 /* DataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC49F1CB945A000854108 /* DataSourceWrapper.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4A91CB945A000854108 /* HttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4A11CB945A000854108 /* HttpDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BC6BC4AA1CB945A000854108 /* LocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4A31CB945A000854108 /* LocalFileDataSource.m */; settings = {ASSET_TAGS = (); }; };
 		BC9D77441CB25C9500E83DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77431CB25C9500E83DA0 /* main.m */; };
 		BC9D77471CB25C9500E83DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77461CB25C9500E83DA0 /* AppDelegate.m */; };
 		BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77491CB25C9500E83DA0 /* ViewController.m */; };
@@ -282,6 +290,22 @@
 		BC6BC48D1CB8E6F400854108 /* WFBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFBaseView.m; sourceTree = "<group>"; };
 		BC6BC48F1CB9083600854108 /* WFMusicPlayProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFMusicPlayProgressView.h; sourceTree = "<group>"; };
 		BC6BC4901CB9083600854108 /* WFMusicPlayProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFMusicPlayProgressView.m; sourceTree = "<group>"; };
+		BC6BC4921CB9334900854108 /* WFRecordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFRecordViewController.h; sourceTree = "<group>"; };
+		BC6BC4931CB9334900854108 /* WFRecordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFRecordViewController.m; sourceTree = "<group>"; };
+		BC6BC4961CB945A000854108 /* AudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayer.h; sourceTree = "<group>"; };
+		BC6BC4971CB945A000854108 /* AudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioPlayer.m; sourceTree = "<group>"; };
+		BC6BC4981CB945A000854108 /* AutoRecoveringHttpDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoRecoveringHttpDataSource.h; sourceTree = "<group>"; };
+		BC6BC4991CB945A000854108 /* AutoRecoveringHttpDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoRecoveringHttpDataSource.m; sourceTree = "<group>"; };
+		BC6BC49A1CB945A000854108 /* CoreFoundationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreFoundationDataSource.h; sourceTree = "<group>"; };
+		BC6BC49B1CB945A000854108 /* CoreFoundationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreFoundationDataSource.m; sourceTree = "<group>"; };
+		BC6BC49C1CB945A000854108 /* DataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSource.h; sourceTree = "<group>"; };
+		BC6BC49D1CB945A000854108 /* DataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSource.m; sourceTree = "<group>"; };
+		BC6BC49E1CB945A000854108 /* DataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceWrapper.h; sourceTree = "<group>"; };
+		BC6BC49F1CB945A000854108 /* DataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceWrapper.m; sourceTree = "<group>"; };
+		BC6BC4A01CB945A000854108 /* HttpDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpDataSource.h; sourceTree = "<group>"; };
+		BC6BC4A11CB945A000854108 /* HttpDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpDataSource.m; sourceTree = "<group>"; };
+		BC6BC4A21CB945A000854108 /* LocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFileDataSource.h; sourceTree = "<group>"; };
+		BC6BC4A31CB945A000854108 /* LocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileDataSource.m; sourceTree = "<group>"; };
 		BC9D773F1CB25C9500E83DA0 /* WFUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D77431CB25C9500E83DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC9D77451CB25C9500E83DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -353,6 +377,8 @@
 				BC6BC3371CB8D00600854108 /* WFMusicListViewController.m */,
 				BC6BC3141CB7D7C900854108 /* WFOnlineMusicViewController.h */,
 				BC6BC3151CB7D7C900854108 /* WFOnlineMusicViewController.m */,
+				BC6BC4921CB9334900854108 /* WFRecordViewController.h */,
+				BC6BC4931CB9334900854108 /* WFRecordViewController.m */,
 				BC6BC38E1CB8D47400854108 /* UI */,
 			);
 			path = sound;
@@ -401,6 +427,7 @@
 		BC6BC30F1CB7D79300854108 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				BC6BC4951CB945A000854108 /* AudioPlayer */,
 				BC6BC3921CB8D6A300854108 /* WFAppJump */,
 				BC6BC3DB1CB8D6A300854108 /* WFPhotoBrowser */,
 				BC6BC3241CB8BE3B00854108 /* Audio */,
@@ -705,6 +732,27 @@
 			path = Bean;
 			sourceTree = "<group>";
 		};
+		BC6BC4951CB945A000854108 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BC6BC4961CB945A000854108 /* AudioPlayer.h */,
+				BC6BC4971CB945A000854108 /* AudioPlayer.m */,
+				BC6BC4981CB945A000854108 /* AutoRecoveringHttpDataSource.h */,
+				BC6BC4991CB945A000854108 /* AutoRecoveringHttpDataSource.m */,
+				BC6BC49A1CB945A000854108 /* CoreFoundationDataSource.h */,
+				BC6BC49B1CB945A000854108 /* CoreFoundationDataSource.m */,
+				BC6BC49C1CB945A000854108 /* DataSource.h */,
+				BC6BC49D1CB945A000854108 /* DataSource.m */,
+				BC6BC49E1CB945A000854108 /* DataSourceWrapper.h */,
+				BC6BC49F1CB945A000854108 /* DataSourceWrapper.m */,
+				BC6BC4A01CB945A000854108 /* HttpDataSource.h */,
+				BC6BC4A11CB945A000854108 /* HttpDataSource.m */,
+				BC6BC4A21CB945A000854108 /* LocalFileDataSource.h */,
+				BC6BC4A31CB945A000854108 /* LocalFileDataSource.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
 		BC9D77361CB25C9500E83DA0 = {
 			isa = PBXGroup;
 			children = (
@@ -928,6 +976,7 @@
 				BC6BC4801CB8D79000854108 /* UIImageView+WebCache.m in Sources */,
 				BC6BC4881CB8D8DD00854108 /* WFMusicBean.m in Sources */,
 				BC6BC4651CB8D79000854108 /* NSObject+MJKeyValue.m in Sources */,
+				BC6BC4A51CB945A000854108 /* AutoRecoveringHttpDataSource.m in Sources */,
 				BC6BC4611CB8D79000854108 /* MJPropertyKey.m in Sources */,
 				BC6BC4771CB8D79000854108 /* SDWebImageDownloader.m in Sources */,
 				BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */,
@@ -935,12 +984,17 @@
 				BC6BC4911CB9083600854108 /* WFMusicPlayProgressView.m in Sources */,
 				BC9D77471CB25C9500E83DA0 /* AppDelegate.m in Sources */,
 				BC6BC48B1CB8E69900854108 /* WFPlayerMusicToolbar.m in Sources */,
+				BC6BC4A61CB945A000854108 /* CoreFoundationDataSource.m in Sources */,
 				BC6BC4631CB8D79000854108 /* NSObject+MJClass.m in Sources */,
+				BC6BC4A91CB945A000854108 /* HttpDataSource.m in Sources */,
+				BC6BC4A71CB945A000854108 /* DataSource.m in Sources */,
 				BC6BC3131CB7D79300854108 /* AudioStreamer.m in Sources */,
 				BC6BC4641CB8D79000854108 /* NSObject+MJCoding.m in Sources */,
 				BC6BC47D1CB8D79000854108 /* UIImage+MultiFormat.m in Sources */,
 				BC6BC3271CB8BEC200854108 /* WFAudioPlayer.m in Sources */,
 				BC9D77441CB25C9500E83DA0 /* main.m in Sources */,
+				BC6BC4A81CB945A000854108 /* DataSourceWrapper.m in Sources */,
+				BC6BC4AA1CB945A000854108 /* LocalFileDataSource.m in Sources */,
 				BC6BC2FA1CB76F0900854108 /* WFSoundHelper.m in Sources */,
 				BC6BC4731CB8D79000854108 /* NSData+ImageContentType.m in Sources */,
 				BC6BC3E71CB8D6A300854108 /* WFRequestHelper.m in Sources */,
@@ -969,6 +1023,7 @@
 				BC9D77711CB267C100E83DA0 /* WFConfigHelper.m in Sources */,
 				BC6BC45C1CB8D79000854108 /* iCarousel.m in Sources */,
 				BC6BC47F1CB8D79000854108 /* UIImageView+HighlightedWebCache.m in Sources */,
+				BC6BC4A41CB945A000854108 /* AudioPlayer.m in Sources */,
 				BC6BC4661CB8D79000854108 /* NSObject+MJProperty.m in Sources */,
 				BC6BC3301CB8C35600854108 /* WFImageHelper.m in Sources */,
 				BC6BC4751CB8D79000854108 /* SDWebImageCompat.m in Sources */,
@@ -976,6 +1031,7 @@
 				BC6BC4721CB8D79000854108 /* MKAnnotationView+WebCache.m in Sources */,
 				BC6BC47B1CB8D79000854108 /* UIButton+WebCache.m in Sources */,
 				BC6BC4851CB8D83E00854108 /* WFBaseBean.m in Sources */,
+				BC6BC4941CB9334900854108 /* WFRecordViewController.m in Sources */,
 				BC6BC3911CB8D48900854108 /* WFMusicListTbView.m in Sources */,
 				BC6BC3051CB772B500854108 /* WFSoundViewController.m in Sources */,
 				BC6BC4761CB8D79000854108 /* SDWebImageDecoder.m in Sources */,

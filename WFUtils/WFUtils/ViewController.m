@@ -11,6 +11,7 @@
 #import "WFMusicViewController.h"
 #import "WFOnlineMusicViewController.h"
 #import "WFMusicListViewController.h"
+#import "WFRecordViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -19,6 +20,8 @@
 @property (strong, nonatomic) NSArray *dtArray;
 
 @property (strong, nonatomic) WFMusicListViewController *musicListVC;
+@property (strong, nonatomic) WFOnlineMusicViewController *onlineMusicVC;
+@property (strong, nonatomic) WFRecordViewController *recondVC;
 
 @end
 
@@ -29,8 +32,11 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     self.musicListVC = [WFMusicListViewController new];
+    self.onlineMusicVC = [WFOnlineMusicViewController new];
+    self.recondVC = [WFRecordViewController new];
     
-    self.dtArray = [NSArray arrayWithObjects:@"音频",@"音乐播放器",@"在线音乐播放器", nil];
+    self.dtArray = [NSArray arrayWithObjects:@"音频",@"音乐播放器",@"在线音乐播放器"
+                    ,@"录音", nil];
     
     self.tbView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height - 20)];
     self.tbView.delegate = self;
@@ -58,7 +64,11 @@
     }
     else if ([key isEqualToString:@"在线音乐播放器"])
     {
-        [self.navigationController pushViewController:[WFOnlineMusicViewController new] animated:YES];
+        [self.navigationController pushViewController:self.onlineMusicVC animated:YES];
+    }
+    else if ([key isEqualToString:@"录音"])
+    {
+        [self.navigationController pushViewController:self.recondVC animated:YES];
     }
 }
 
