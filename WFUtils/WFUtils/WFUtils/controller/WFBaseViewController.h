@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "WFUIProtocol.h"
 #import "WFGlobalUIDefines.h"
+#import "WFBaseButton.h"
 
 @interface WFBaseViewController : UIViewController<WFUIProtocol>
 

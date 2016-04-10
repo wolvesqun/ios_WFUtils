@@ -28,7 +28,7 @@
 //    NSString *value = [WFEncryptionHelper AES256Decrypt:encodeValue andKey:@"key"];
     
 //    [self testDate];
-    
+    NSLog(@"%@", NSHomeDirectory());
     ViewController *vc = [[ViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
     self.window.rootViewController = nav;

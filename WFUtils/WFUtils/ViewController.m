@@ -14,6 +14,7 @@
 #import "WFRecordViewController.h"
 #import "TestMPMoviePlayerViewController.h"
 #import "TestFullMPMoviePlayerViewController.h"
+#import "CustomVideoPlayerViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -24,6 +25,7 @@
 @property (strong, nonatomic) WFMusicListViewController *musicListVC;
 @property (strong, nonatomic) WFOnlineMusicViewController *onlineMusicVC;
 @property (strong, nonatomic) WFRecordViewController *recondVC;
+//@property (strong, nonatomic) cus
 
 @end
 
@@ -32,7 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
+    Class
     self.musicListVC = [WFMusicListViewController new];
     self.onlineMusicVC = [WFOnlineMusicViewController new];
     self.recondVC = [WFRecordViewController new];
@@ -40,7 +42,7 @@
     self.dtArray = [NSArray arrayWithObjects:@"音频",@"音乐播放器",@"在线音乐播放器"
                     ,@"录音",
                     @"系统视频播放->MPMoviePlayerViewController",
-                    @"全屏系统播放器", nil];
+                    @"全屏系统播放器",@"自定义视频播放器", nil];
     
     self.tbView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height - 20)];
     self.tbView.delegate = self;
@@ -81,6 +83,10 @@
     else if ([key isEqualToString:@"全屏系统播放器"])
     {
         [self.navigationController pushViewController:[TestFullMPMoviePlayerViewController new] animated:YES];
+    }
+    else if ([key isEqualToString:@"自定义视频播放器"])
+    {
+        [self.navigationController pushViewController:[CustomVideoPlayerViewController new] animated:YES];
     }
 }
 

@@ -115,6 +115,8 @@
 		BC711CBB1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC711CBA1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BC711CBD1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BC711CBC1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 */; settings = {ASSET_TAGS = (); }; };
 		BC711CC01CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC711CBF1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC711CC31CBA00D800F3CFD3 /* CustomVideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC711CC21CBA00D800F3CFD3 /* CustomVideoPlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC711CC61CBA341D00F3CFD3 /* WFBaseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC711CC51CBA341D00F3CFD3 /* WFBaseButton.m */; settings = {ASSET_TAGS = (); }; };
 		BC9D77441CB25C9500E83DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77431CB25C9500E83DA0 /* main.m */; };
 		BC9D77471CB25C9500E83DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77461CB25C9500E83DA0 /* AppDelegate.m */; };
 		BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77491CB25C9500E83DA0 /* ViewController.m */; };
@@ -314,6 +316,10 @@
 		BC711CBC1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1.互联网并发编程介绍.mp4"; sourceTree = "<group>"; };
 		BC711CBE1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFullMPMoviePlayerViewController.h; sourceTree = "<group>"; };
 		BC711CBF1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFullMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		BC711CC11CBA00D800F3CFD3 /* CustomVideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomVideoPlayerViewController.h; sourceTree = "<group>"; };
+		BC711CC21CBA00D800F3CFD3 /* CustomVideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomVideoPlayerViewController.m; sourceTree = "<group>"; };
+		BC711CC41CBA341D00F3CFD3 /* WFBaseButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WFBaseButton.h; sourceTree = "<group>"; };
+		BC711CC51CBA341D00F3CFD3 /* WFBaseButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WFBaseButton.m; sourceTree = "<group>"; };
 		BC9D773F1CB25C9500E83DA0 /* WFUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D77431CB25C9500E83DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC9D77451CB25C9500E83DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -399,6 +405,8 @@
 				BC711CBA1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m */,
 				BC711CBE1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.h */,
 				BC711CBF1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m */,
+				BC711CC11CBA00D800F3CFD3 /* CustomVideoPlayerViewController.h */,
+				BC711CC21CBA00D800F3CFD3 /* CustomVideoPlayerViewController.m */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -866,6 +874,8 @@
 				BC6BC38C1CB8D34200854108 /* WFBaseTbView.m */,
 				BC6BC48C1CB8E6F400854108 /* WFBaseView.h */,
 				BC6BC48D1CB8E6F400854108 /* WFBaseView.m */,
+				BC711CC41CBA341D00F3CFD3 /* WFBaseButton.h */,
+				BC711CC51CBA341D00F3CFD3 /* WFBaseButton.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -1032,8 +1042,10 @@
 				BC6BC32A1CB8BF0900854108 /* WFLocalAudioPlayerManager.m in Sources */,
 				BC6BC33C1CB8D07900854108 /* WFBaseViewController.m in Sources */,
 				BC6BC47A1CB8D79000854108 /* SDWebImagePrefetcher.m in Sources */,
+				BC711CC31CBA00D800F3CFD3 /* CustomVideoPlayerViewController.m in Sources */,
 				BC6BC4021CB8D6A300854108 /* WFPhoto.m in Sources */,
 				BC6BC47E1CB8D79000854108 /* UIImage+WebP.m in Sources */,
+				BC711CC61CBA341D00F3CFD3 /* WFBaseButton.m in Sources */,
 				BC6BC4741CB8D79000854108 /* SDImageCache.m in Sources */,
 				BC9D77711CB267C100E83DA0 /* WFConfigHelper.m in Sources */,
 				BC6BC45C1CB8D79000854108 /* iCarousel.m in Sources */,
