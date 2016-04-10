@@ -12,6 +12,8 @@
 #import "WFOnlineMusicViewController.h"
 #import "WFMusicListViewController.h"
 #import "WFRecordViewController.h"
+#import "TestMPMoviePlayerViewController.h"
+#import "TestFullMPMoviePlayerViewController.h"
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
 
@@ -36,7 +38,9 @@
     self.recondVC = [WFRecordViewController new];
     
     self.dtArray = [NSArray arrayWithObjects:@"音频",@"音乐播放器",@"在线音乐播放器"
-                    ,@"录音", nil];
+                    ,@"录音",
+                    @"系统视频播放->MPMoviePlayerViewController",
+                    @"全屏系统播放器", nil];
     
     self.tbView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, self.view.frame.size.width, self.view.frame.size.height - 20)];
     self.tbView.delegate = self;
@@ -69,6 +73,14 @@
     else if ([key isEqualToString:@"录音"])
     {
         [self.navigationController pushViewController:self.recondVC animated:YES];
+    }
+    else if ([key isEqualToString:@"系统视频播放->MPMoviePlayerViewController"])
+    {
+        [self.navigationController pushViewController:[TestMPMoviePlayerViewController new] animated:YES];
+    }
+    else if ([key isEqualToString:@"全屏系统播放器"])
+    {
+        [self.navigationController pushViewController:[TestFullMPMoviePlayerViewController new] animated:YES];
     }
 }
 

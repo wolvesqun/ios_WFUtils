@@ -112,6 +112,9 @@
 		BC6BC4A81CB945A000854108 /* DataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC49F1CB945A000854108 /* DataSourceWrapper.m */; settings = {ASSET_TAGS = (); }; };
 		BC6BC4A91CB945A000854108 /* HttpDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4A11CB945A000854108 /* HttpDataSource.m */; settings = {ASSET_TAGS = (); }; };
 		BC6BC4AA1CB945A000854108 /* LocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6BC4A31CB945A000854108 /* LocalFileDataSource.m */; settings = {ASSET_TAGS = (); }; };
+		BC711CBB1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC711CBA1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
+		BC711CBD1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BC711CBC1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 */; settings = {ASSET_TAGS = (); }; };
+		BC711CC01CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC711CBF1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		BC9D77441CB25C9500E83DA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77431CB25C9500E83DA0 /* main.m */; };
 		BC9D77471CB25C9500E83DA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77461CB25C9500E83DA0 /* AppDelegate.m */; };
 		BC9D774A1CB25C9500E83DA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC9D77491CB25C9500E83DA0 /* ViewController.m */; };
@@ -306,6 +309,11 @@
 		BC6BC4A11CB945A000854108 /* HttpDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpDataSource.m; sourceTree = "<group>"; };
 		BC6BC4A21CB945A000854108 /* LocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalFileDataSource.h; sourceTree = "<group>"; };
 		BC6BC4A31CB945A000854108 /* LocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalFileDataSource.m; sourceTree = "<group>"; };
+		BC711CB91CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMPMoviePlayerViewController.h; sourceTree = "<group>"; };
+		BC711CBA1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestMPMoviePlayerViewController.m; sourceTree = "<group>"; };
+		BC711CBC1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1.互联网并发编程介绍.mp4"; sourceTree = "<group>"; };
+		BC711CBE1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestFullMPMoviePlayerViewController.h; sourceTree = "<group>"; };
+		BC711CBF1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestFullMPMoviePlayerViewController.m; sourceTree = "<group>"; };
 		BC9D773F1CB25C9500E83DA0 /* WFUtils.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WFUtils.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC9D77431CB25C9500E83DA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC9D77451CB25C9500E83DA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -387,6 +395,10 @@
 		BC6BC3021CB7729700854108 /* Video */ = {
 			isa = PBXGroup;
 			children = (
+				BC711CB91CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.h */,
+				BC711CBA1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m */,
+				BC711CBE1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.h */,
+				BC711CBF1CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m */,
 			);
 			path = Video;
 			sourceTree = "<group>";
@@ -420,6 +432,7 @@
 		BC6BC30D1CB787AD00854108 /* video */ = {
 			isa = PBXGroup;
 			children = (
+				BC711CBC1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 */,
 			);
 			path = video;
 			sourceTree = "<group>";
@@ -923,6 +936,7 @@
 				BC6BC3701CB8D2DE00854108 /* kzxd@2x.jpg in Resources */,
 				BC6BC36B1CB8D2DE00854108 /* eason_icon@2x.jpg in Resources */,
 				BC6BC37C1CB8D2DE00854108 /* 14945107.lrc in Resources */,
+				BC711CBD1CB9DBD900F3CFD3 /* 1.互联网并发编程介绍.mp4 in Resources */,
 				BC6BC38A1CB8D2DE00854108 /* Musics.plist in Resources */,
 				BC9D774F1CB25C9500E83DA0 /* Assets.xcassets in Resources */,
 				BC6BC36A1CB8D2DE00854108 /* eason@2x.jpg in Resources */,
@@ -997,6 +1011,7 @@
 				BC6BC4AA1CB945A000854108 /* LocalFileDataSource.m in Sources */,
 				BC6BC2FA1CB76F0900854108 /* WFSoundHelper.m in Sources */,
 				BC6BC4731CB8D79000854108 /* NSData+ImageContentType.m in Sources */,
+				BC711CBB1CB9D34800F3CFD3 /* TestMPMoviePlayerViewController.m in Sources */,
 				BC6BC3E71CB8D6A300854108 /* WFRequestHelper.m in Sources */,
 				BC6BC3EA1CB8D6A300854108 /* WFResponseServlet.m in Sources */,
 				BC6BC4601CB8D79000854108 /* MJProperty.m in Sources */,
@@ -1033,6 +1048,7 @@
 				BC6BC4851CB8D83E00854108 /* WFBaseBean.m in Sources */,
 				BC6BC4941CB9334900854108 /* WFRecordViewController.m in Sources */,
 				BC6BC3911CB8D48900854108 /* WFMusicListTbView.m in Sources */,
+				BC711CC01CB9E52900F3CFD3 /* TestFullMPMoviePlayerViewController.m in Sources */,
 				BC6BC3051CB772B500854108 /* WFSoundViewController.m in Sources */,
 				BC6BC4761CB8D79000854108 /* SDWebImageDecoder.m in Sources */,
 				BC6BC4781CB8D79000854108 /* SDWebImageDownloaderOperation.m in Sources */,
